@@ -3,7 +3,7 @@
     {
       "id": 1,
       "name": "Romanian Deadlifts",
-      "image": "./images/romanian_deadlifts.png",
+      "image": "./images/Romanian_Deadlifts.png",
       "duration": "3 x 10",
       "description": "The Romanian Deadlift (RDL) targets the hamstrings, glutes, and lower back, with core engagement for stability. To perform it, stand with feet hip-width apart, holding a barbell or dumbbells in front of your thighs. With a slight knee bend, hinge at the hips and lower the weight down your legs until you feel a hamstring stretch, keeping your back straight. Drive your hips forward to return to standing, maintaining control and keeping the weight close to your body."
     },
@@ -17,7 +17,7 @@
     {
       "id": 3,
       "name": "Bicep Curls",
-      "image": ".images/Bicep_Curls.png",
+      "image": "./images/Bicep_Curls.png",
       "duration": "3 x 10",
       "description": "The bicep curl targets the biceps in the upper arm. To perform it, stand with feet shoulder-width apart, holding a dumbbell or barbell with an underhand grip. Keep your elbows close to your sides and curl the weight toward your shoulders by contracting your biceps. Lower the weight back down slowly and with control to the starting position. Keep your core engaged and avoid swinging for proper form."
     },
