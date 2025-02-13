@@ -25,6 +25,13 @@ function NewWorkoutForm(){
             },
             body: JSON.stringify(formData)
         })
+        .then(response => {
+            if(response.ok){
+                response.json().then((newWorkoutData) => {
+                    addWorkout(newWorkoutData)
+                })
+            }
+        })
         // addWorkout(formData)
     }
 
