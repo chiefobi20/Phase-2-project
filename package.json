@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
-  "name": "example-project",
-=======
   "name": "project2",
->>>>>>> 8366ca9 (Phase 2read me update)
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -11,12 +7,7 @@
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-router-dom": "^6.29.0",
-<<<<<<< HEAD
-    "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
-=======
     "react-scripts": "5.0.1"
->>>>>>> 8366ca9 (Phase 2read me update)
   },
   "scripts": {
     "start": "react-scripts start",
