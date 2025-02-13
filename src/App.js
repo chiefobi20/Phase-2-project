@@ -25,6 +25,7 @@ import WorkoutPlanner from './components/WorkoutPlanner';
 import Exercise from './components/Exercise';
 import WorkoutDropzone from './components/WorkoutDropzone';
 import { useState } from 'react';
+import { useEffect } from 'react';
 
 function App() {
   const [isDarkMode, setIsDarkMode] = useState(false)
@@ -34,6 +35,12 @@ function App() {
   function toggleDarkMode(){
     setIsDarkMode(!isDarkMode)
   }
+
+  useEffect(() => {
+    console.log("It's time to exercise!")
+  },
+  []
+)
 
   return (
     <div className= {darkModeClass}>
