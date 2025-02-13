@@ -2,9 +2,11 @@ function Workout({workout}){
 
     console.log(workout)
     return(
-        <li>
-            <img src={workout.image}/>
-        </li>
+        <div className="container">
+            <li>
+                <img src={workout.image}/>
+            </li>
+        </div>
     )
 }
 
