@@ -2,10 +2,13 @@
     "workouts" : [
         {
             "id": 1,
-            "name": ""
+            "name": "",
+            "image": "./images/romanian_deadlifts.png"
         },
         {
-            "id": 2
+            "id": 2,
+            "name": "",
+            "image": ""
         }
     ]
 }
