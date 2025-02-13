@@ -4,7 +4,7 @@ Welcome to the Interactive Workout Planner! This app will help any user who want
 ## Setup
 In order to access this app, you need to run the following commands in your terminal from the root directory:
 1. Run the json server in your terminal:
-- `npm run server1`
+- `npm run server`
 
 2. Use another terminal to open the app in the browser by running the command:
 - `npm start`
