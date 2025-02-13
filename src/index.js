@@ -4,18 +4,27 @@ import './index.css';
 import App from './App';
 import About from './components/About'
 import {createBrowserRouter, RouterProvider} from 'react-router-dom';
+import NewWorkoutForm from './components/NewWorkoutForm';
+import WorkoutsList from './components/WorkoutsList';
 // import reportWebVitals from './reportWebVitals';
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <App/>
-  },
-  {
-    path: "/about",
-    element: <About/>
-  },
-  {
-    path: "/"
+    element: <App/>,
+    children: [
+      {
+        path: "/",
+        element: <WorkoutsList/>
+      },
+      {
+        path: "/about",
+        element: <About/>
+      },
+      {
+        path: "/add-workout",
+        element: <NewWorkoutForm/>
+      }
+    ]
   }
 ])
 const root = ReactDOM.createRoot(document.getElementById('root'));

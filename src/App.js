@@ -2,8 +2,10 @@ import logo from './logo.svg';
 import './App.css';
 import Header from './components/Header';
 import WorkoutsList from './components/WorkoutsList';
+import NavBar from './components/NavBar';
 import { useState } from 'react';
 import { useEffect } from 'react';
+import { Outlet } from 'react-router-dom';
 
 function App() {
   const [workouts, setWorkouts] = useState([])
@@ -19,8 +21,13 @@ function App() {
 
   return (
     <div className="App">
-       <Header/>
-      <WorkoutsList workouts={workouts}/>
+      <NavBar/>
+      <Header/>
+      <Outlet context={
+        {
+          workouts: workouts
+        }
+      }/>
     </div>
   );
 }
