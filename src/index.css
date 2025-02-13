@@ -11,3 +11,15 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+<<<<<<< HEAD
+=======
+
+#root {
+  text-align: center;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+>>>>>>> 8366ca9 (Phase 2read me update)
