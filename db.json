@@ -2,13 +2,66 @@
     "workouts" : [
         {
             "id": 1,
-            "name": "",
-            "image": "./images/romanian_deadlifts.png"
+            "name": "Romanian Deadlifts",
+            "image": "./images/romanian_deadlifts.png",
+            "duration": "3 x 10",
+            "description": "The Romanian Deadlift (RDL) targets the hamstrings, glutes, and lower back, with core engagement for stability. To perform it, stand with feet hip-width apart, holding a barbell or dumbbells in front of your thighs. With a slight knee bend, hinge at the hips and lower the weight down your legs until you feel a hamstring stretch, keeping your back straight. Drive your hips forward to return to standing, maintaining control and keeping the weight close to your body."
         },
         {
             "id": 2,
-            "name": "",
-            "image": ""
+            "name": "Squats",
+            "image": "./images/Barbell_Squats.png",
+            "duration": "3 x 10",
+            "description": "The barbell squat primarily targets the quadriceps, glutes, and hamstrings, while also engaging the core and lower back for stability. To perform it, stand with feet shoulder-width apart, barbell resting on your upper back. Keep your chest up, engage your core, and lower yourself by bending your knees and pushing your hips back, keeping your weight in your heels. Lower until your thighs are at least parallel to the ground, then drive through your heels to return to standing. Maintain a neutral spine and controlled movement throughout."
+        },
+        {
+            "id": 3,
+            "name": "Bicep Curls",
+            "image": ".images/Bicep_Curls.png",
+            "duration": "3 x 10",
+            "description": "The bicep curl targets the biceps in the upper arm. To perform it, stand with feet shoulder-width apart, holding a dumbbell or barbell with an underhand grip. Keep your elbows close to your sides and curl the weight toward your shoulders by contracting your biceps. Lower the weight back down slowly and with control to the starting position. Keep your core engaged and avoid swinging for proper form."
+        },
+        {
+            "id": 4,
+            "name": "Jogging on Treadmill",
+            "image": "./images/Jogging.png",
+            "duration": "7 mins on 5.0 pace",
+            "description": "Jogging on a treadmill primarily targets the legs (quadriceps, hamstrings, calves) and glutes, while also engaging the core for balance and endurance. To perform it, start by setting the treadmill to a comfortable jogging speed. Keep your back straight, shoulders relaxed, and arms swinging naturally. Land midfoot and push off with your toes while maintaining a steady breathing rhythm. Adjust the speed or incline as needed for intensity, and always cool down by gradually slowing your pace before stopping."
+        },
+        {
+            "id": 5,
+            "name": "Tricep Pulldowns",
+            "image": "./images/Tricep_Pulldowns.png",
+            "duration": "3 x 10",
+            "description": "The tricep pulldown targets the triceps, the muscles on the back of the upper arm. To perform it, stand facing a cable machine with a straight bar or rope attachment set at chest height. Grip the handle with an overhand grip, keep your elbows close to your body, and slightly bend your knees for stability. Push the handle downward until your arms are fully extended, then slowly return to the starting position while keeping tension on the triceps. Avoid using momentum and focus on controlled movement for maximum effectiveness"
+        },
+        {
+            "id": 6,
+            "name": "Stairmaster",
+            "image": "./images/Stairmaster_workout.png",
+            "duration": "8-10 mins on 8.0 pace",
+            "description": "A StairMaster workout primarily targets the quadriceps, hamstrings, glutes, and calves, while also engaging the core for balance. To perform it, step onto the machine and start at a moderate pace, keeping your back straight and hands lightly on the rails for support. Step naturally and controlled, driving through your heels to engage your glutes and avoid relying too much on the handrails. Maintain a steady pace and breathing rhythm, adjusting speed or resistance to increase intensity."
+        },
+        {
+            "id": 7,
+            "name": "Concentration Curls",
+            "image": "./images/Concentration_Curls.png",
+            "duration": "3 x 8",
+            "description": "The concentration curl targets the biceps, emphasizing the biceps peak for muscle definition. To perform it, sit on a bench with your feet flat on the ground, holding a dumbbell in one hand. Rest your elbow against the inside of your thigh, keeping your arm extended. Slowly curl the dumbbell toward your shoulder, squeezing your biceps at the top. Lower it back down with control, fully extending your arm before repeating. Keep your core engaged and avoid swinging for proper isolation."
+        },
+        {
+            "id": 8,
+            "name": "Lat Pulldowns",
+            "image": "./images/Lat_Pulldowns.png",
+            "duration": "3 x 10",
+            "description": "The lat pulldown targets the latissimus dorsi (lats), upper back, and biceps. To perform it, sit at a lat pulldown machine and grip the bar slightly wider than shoulder-width with an overhand grip. Keep your chest up and engage your core as you pull the bar down toward your upper chest, squeezing your shoulder blades together. Slowly return the bar to the starting position with control. Avoid using momentum and focus on a smooth, controlled movement for maximum muscle engagement."
+        },
+        {
+            "id": 9,
+            "name":"Bench press",
+            "image": "./images/Bench_Press.png",
+            "duration": "3 x 8",
+            "description": "The bench press primarily targets the chest (pectorals), shoulders (deltoids), and triceps, while also engaging the core for stability. To perform it, lie flat on a bench with your feet firmly on the ground and grip the barbell slightly wider than shoulder-width. Lower the bar slowly to your chest, keeping your elbows at about a 45-degree angle. Press the bar back up until your arms are fully extended, keeping control throughout the movement. Maintain a tight core and stable wrist position for proper form."
         }
     ]
 }

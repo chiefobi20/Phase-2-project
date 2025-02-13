@@ -1,31 +1,26 @@
 import logo from './logo.svg';
 import './App.css';
-import About from "./components/About"
-import WorkoutPlanner from './components/WorkoutPlanner';
-import Exercise from './components/Exercise';
-import WorkoutDropzone from './components/WorkoutDropzone';
+import Header from './components/Header';
+import WorkoutsList from './components/WorkoutsList';
 import { useState } from 'react';
 import { useEffect } from 'react';
 
 function App() {
-  const [isDarkMode, setIsDarkMode] = useState(false)
-  const modeText = isDarkMode ? "Dark" : "Light"
-  const darkModeClass = isDarkMode ? "dark-mode" : "App"
+  const [workouts, setWorkouts] = useState([])
 
-  function toggleDarkMode(){
-    setIsDarkMode(!isDarkMode)
-  }
 
   useEffect(() => {
-    console.log("It's time to exercise!")
+    fetch("http://localhost:4000/workouts")
+    .then(response => response.json())
+    .then(workoutsData => setWorkouts(workoutsData))
   },
   []
 )
 
   return (
-    <div className= {darkModeClass}>
-      <About num1 = {15} num2 = {5}/>
-      <button onClick={toggleDarkMode}>{modeText} Mode</button>
+    <div className="App">
+       <Header/>
+      <WorkoutsList workouts={workouts}/>
     </div>
   );
 }
