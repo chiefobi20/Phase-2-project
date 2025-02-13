@@ -29,7 +29,8 @@ function App() {
       <Header/>
       <Outlet context={
         {
-          workouts: workouts
+          workouts: workouts,
+          addWorkout: addWorkout
         }
       }/>
     </div>

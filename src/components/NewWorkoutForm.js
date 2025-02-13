@@ -1,4 +1,5 @@
 import { useState } from "react"
+import { useOutletContext } from "react-router-dom"
 
 function NewWorkoutForm(){
     const [formData, setFormData] = useState({
@@ -8,13 +9,15 @@ function NewWorkoutForm(){
         description: ""
     })
 
+    const {addWorkout} = useOutletContext()
+
     function updateFormData(event){
         setFormData({...formData, [event.target.name]: event.target.value})
     }
 
     function handleSubmit(event){
         event.preventDefault()
-        console.log(formData)
+        // addWorkout(formData)
     }
 
     return(
