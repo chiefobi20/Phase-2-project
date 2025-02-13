@@ -1,5 +1,5 @@
 import { useState } from "react"
-import { useOutletContext } from "react-router-dom"
+import { json, useOutletContext } from "react-router-dom"
 
 function NewWorkoutForm(){
     const [formData, setFormData] = useState({
@@ -17,6 +17,14 @@ function NewWorkoutForm(){
 
     function handleSubmit(event){
         event.preventDefault()
+        fetch("http://localhost:4000/workouts", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+                "Accept": "application/json"
+            },
+            body: JSON.stringify(formData)
+        })
         // addWorkout(formData)
     }
 
