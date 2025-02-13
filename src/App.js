@@ -17,7 +17,11 @@ function App() {
     .then(workoutsData => setWorkouts(workoutsData))
   },
   []
-)
+  )
+
+  function addWorkout(newWorkout){
+    setWorkouts([...workouts, newWorkout])
+  }
 
   return (
     <div className="App">
