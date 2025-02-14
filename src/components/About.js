@@ -1,6 +1,13 @@
 function About(){
     return(
-        <h1>The goal of this app is to be your guide and friend while you go on your journey to achieve your fitness goals and level up in life!</h1>
+        <div>
+            <h1>About</h1>
+            <p id="about"><em>This app is to serve as your guide as you begin your journey to achieve your fitness goals!
+                You can customize and fix your workouts based on your level of fitness and eventually increase and level
+                up as you become more comfortable and confident. Let's get to work, friend!
+            </em>
+            </p>
+        </div>
     )
 }
 

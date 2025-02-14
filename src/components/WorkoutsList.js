@@ -1,18 +1,18 @@
 import Workout from "./Workout"
 import { useOutletContext } from "react-router-dom"
 
-function WorkoutsList(){
+function WorkoutsList({}){
 
     const {workouts} = useOutletContext()
 
     const workoutComponents = workouts.map((workoutObj) => {
-        return <Workout key={workoutObj.id} workout={workoutObj} name={workoutObj.name} description={workoutObj.description}/>
+        return <Workout key={workoutObj.id} workout={workoutObj}/>
     })
 
     return(
-        <ul>
+        <div>
             {workoutComponents}
-        </ul>
+        </div>
     )
 }
 
